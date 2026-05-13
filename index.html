@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aldrich Dias — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-logo">aldrich_dias.dev</span>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-eyebrow">Computer Engineering Technology · Edmonton, AB</div>
+  <h1>Aldrich<br><span>Dias</span><span class="cursor-blink"></span></h1>
+  <p class="hero-sub">Embedded systems & full-stack developer building hardware that talks to the cloud — from bare-metal firmware and custom PCBs to REST APIs and React dashboards.</p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+    <a href="https://github.com/Blank127" target="_blank" class="btn btn-ghost">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      GitHub
+    </a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <span class="section-title">About</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>I'm a <strong>Computer Engineering Technology diploma graduate</strong> with hands-on training in both the hardware and software sides of embedded systems — from electronic circuit design and PCB layout to full-stack web applications and industrial control.</p>
+      <p>My projects span the full stack: custom PCBs in KiCad, bare-metal firmware in C, C# backend services with ASP.NET Core and PostgreSQL, and live React dashboards. I like understanding how each layer interacts — how a sensor's timing constraints shape firmware design, and how firmware constraints shape the system architecture above it.</p>
+      <p>The diploma also covered PLC ladder logic, PHP, AJAX, jQuery, and SQL — giving me a broad base across both industrial and web-facing applications.</p>
+    </div>
+    <div class="skills-col">
+      <h3>Tech Stack</h3>
+      <div class="skill-group">
+        <h4>Firmware &amp; Hardware</h4>
+        <div class="skill-chips">
+          <span class="chip">C</span>
+          <span class="chip">ESP-IDF</span>
+          <span class="chip">STM32 HAL</span>
+          <span class="chip">FreeRTOS</span>
+          <span class="chip">KiCad</span>
+          <span class="chip">BLE (NimBLE)</span>
+          <span class="chip">UART / I2C / 1-Wire</span>
+          <span class="chip">SWD/JTAG</span>
+          <span class="chip">PLC / Ladder Logic</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Backend &amp; Data</h4>
+        <div class="skill-chips">
+          <span class="chip">C#</span>
+          <span class="chip">ASP.NET Core</span>
+          <span class="chip">Entity Framework</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">SQL</span>
+          <span class="chip">PHP</span>
+          <span class="chip">REST API</span>
+          <span class="chip">Docker</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Frontend</h4>
+        <div class="skill-chips">
+          <span class="chip">React</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">HTML5 / CSS3</span>
+          <span class="chip">jQuery / AJAX</span>
+          <span class="chip">Recharts</span>
+          <span class="chip">Vite</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <span class="section-title">Projects</span>
+    <div class="section-line"></div>
+  </div>
+
+  <!-- Sleep Monitor -->
+  <div class="project-card reveal" style="margin-bottom: 1.5rem;">
+    <div class="project-top">
+      <span class="project-badge badge-full">Full-Stack Embedded</span>
+      <div class="project-links">
+        <a href="https://sleep-monitoring-systems.vercel.app" target="_blank" class="project-link">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          Live Demo
+        </a>
+        <a href="https://github.com/Blank127/Sleep-Monitoring-Systems" target="_blank" class="project-link">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <h2 class="project-title">Non-Contact Sleep Monitor</h2>
+    <p class="project-desc">
+      A full-stack embedded system that monitors sleep vitals in real time without physical contact. An ESP32-S3 reads heart rate and breathing rate from a C1001 mmWave radar over UART and room temperature from a DS18B20 over 1-Wire. Data is averaged over 10-second windows, packed into JSON, and streamed over BLE using a custom NimBLE GATT notify characteristic. A C# server receives the BLE stream, reassembles MTU-chunked packets, and writes sessions and readings to a hosted PostgreSQL database. A live React dashboard displays current vitals and historical session charts.
+    </p>
+    <div class="project-stack">
+      <span class="stack-item">ESP32-S3</span>
+      <span class="stack-item">C1001 mmWave Radar</span>
+      <span class="stack-item">DS18B20</span>
+      <span class="stack-item">ESP-IDF / FreeRTOS</span>
+      <span class="stack-item">NimBLE GATT</span>
+      <span class="stack-item">C#</span>
+      <span class="stack-item">ASP.NET Core</span>
+      <span class="stack-item">Entity Framework</span>
+      <span class="stack-item">PostgreSQL (Neon)</span>
+      <span class="stack-item">React + Vite</span>
+      <span class="stack-item">Recharts</span>
+      <span class="stack-item">Vercel</span>
+    </div>
+    <div class="project-highlights">
+      <div class="highlight-item">
+        <div class="highlight-label">MCU</div>
+        <div class="highlight-value">ESP32-S3</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-label">Protocol</div>
+        <div class="highlight-value">BLE / UART / 1-Wire</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-label">Languages</div>
+        <div class="highlight-value">C · C# · JavaScript</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-label">Deployed</div>
+        <div class="highlight-value">Vercel + Render + Neon</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fire Alarm -->
+  <div class="project-card reveal">
+    <div class="project-top">
+      <span class="project-badge badge-hw">PCB Design · CMPE2750</span>
+      <div class="project-links">
+        <a href="https://github.com/Blank127/FireAlarm" target="_blank" class="project-link">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <h2 class="project-title">Fire Alarm — Temperature Sensor Alarm System</h2>
+    <p class="project-desc">
+      A temperature monitoring and alarm system built on a fully custom PCB designed in KiCad. The DS18B20 digital sensor reads ambient temperature every second over 1-Wire and displays it on a TM1650-based 4-digit 7-segment display. A second display shows the configurable alarm threshold at all times. When temperature exceeds the threshold, an alarm LED activates and must be manually acknowledged via an onboard tactile button. The board is USB-C powered with an AMS1117-3.3 LDO and includes an SWD header for in-circuit programming.
+    </p>
+    <div class="project-stack">
+      <span class="stack-item">STM32G0B1RETx</span>
+      <span class="stack-item">DS18B20</span>
+      <span class="stack-item">TM1650 7-Seg (×2)</span>
+      <span class="stack-item">AMS1117-3.3 LDO</span>
+      <span class="stack-item">USB-C Power</span>
+      <span class="stack-item">KiCad PCB</span>
+      <span class="stack-item">STM32 HAL</span>
+      <span class="stack-item">STM32CubeIDE</span>
+      <span class="stack-item">C</span>
+      <span class="stack-item">1-Wire · I2C · SWD</span>
+    </div>
+    <div class="project-highlights">
+      <div class="highlight-item">
+        <div class="highlight-label">MCU</div>
+        <div class="highlight-value">STM32G0B1RETx</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-label">Protocol</div>
+        <div class="highlight-value">1-Wire · I2C · SWD</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-label">Hardware</div>
+        <div class="highlight-value">Custom KiCad PCB</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-label">Power</div>
+        <div class="highlight-value">USB-C → 3.3 V LDO</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <span class="section-title">Contact</span>
+    <div class="section-line"></div>
+  </div>
+  <p class="reveal" style="color: var(--muted); font-size: 0.92rem; margin-bottom: 2rem; max-width: 480px;">Open to internships, co-ops, and project collaborations in embedded systems, hardware, or full-stack development.</p>
+  <div class="contact-row reveal">
+    <a href="https://github.com/Blank127" target="_blank" class="contact-item">
+      <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      <div>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/Blank127</span>
+      </div>
+    </a>
+    <a href="https://sleep-monitoring-systems.vercel.app" target="_blank" class="contact-item">
+      <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      <div>
+        <span class="contact-label">Live Project</span>
+        <span class="contact-value">Sleep Monitor Dashboard</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-copy">© 2026 <span class="footer-accent">Aldrich Dias</span></span>
+  <span class="footer-copy" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px;">Built with HTML · CSS · JS</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
